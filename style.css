@@ -1,3 +1,10 @@
+:root {
+  --main-bg-color: hsl(276,89%,11%);
+  --main-font: Mulish, sans-serif;
+  --main-color-gradient: linear-gradient(to right, #CD84F1, #7158E2);
+  --main-color-button: linear-gradient(to right, #7DAA7C, #58FF55);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,5 +12,123 @@
 }
 
 body {
-  background-color: hsl(276,89%,11%);
+  background-color: var(--main-bg-color);
+  font-family: var(--main-font);
+}
+
+header {
+  height: 3.6rem;
+  padding: 3.5rem 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  z-index: 3;
+}
+
+li {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__container {
+  height: 1.8rem;
+  width: 8rem;
+  margin: 0 .8rem;
+}
+
+.header__logo {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.nav__container {
+  width: 45%;
+  color: white;
+  cursor: pointer;
+}
+
+.nav__list ul {
+  display: flex;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.nav__list ul:hover {
+  color: #ebebeb;
+  filter: drop-shadow(1px 1px 2px #fff);
+}
+
+.header__button {
+  height: 50px;
+  width: 187px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 1px 3px 6px #383838;
+  background: var(--main-color-gradient);
+}
+
+.header__button:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease-out;
+}
+
+.hero {
+  margin: -7rem 0;
+  background-size: cover;
+  background-image: url('./assets/images/background.png');
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.hero__title {
+  width: 100%;
+  padding: 12rem 0;
+  color: white;
+  font-size: 4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.hero__image {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  position: relative;
+  bottom: 18rem;
+}
+
+.hero__box {
+  position: relative;
+  bottom: 74rem;
+  text-align: center;
+  font-size: 2.8rem;
+  color: white;
+}
+
+.hero__button {
+  position: relative;
+  border: none;
+  height: 50px;
+  width: 250px;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  filter: drop-shadow(1px 1px 2px #58FF55);
+  background: var(--main-color-button);
+}
+
+.hero__button:hover {
+  box-shadow: 0 0 10px 0 #6af097 inset, 0 0 12px 3px #58FF55;
 }

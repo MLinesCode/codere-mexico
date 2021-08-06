@@ -14,11 +14,44 @@
   <meta property="og:url" content="https://site.com" />
   <meta property="og:image" content="https://url_image_cdn.com" />
   <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap" rel="stylesheet">
   <title>Codere</title>
 </head>
 <body>
   <header>
-    <img src="assets/images/codere_logo.png" />
+    <div class="header__container">
+      <img class="header__logo" loading="lazy" src="assets/images/codere_logo.png" alt="logo de codere" />
+    </div>
+    <nav class="nav__container">
+      <li class="nav__list">
+        <a href="#">
+          <ul>Inicio</ul>
+        </a>
+        <a href="#">
+          <ul>Galeria</ul>
+        </a>
+        <a href="#">
+          <ul>Acerca de Codere</ul>
+        </a>
+      </li>
+    </nav>
+    <button class="header__button">Entrar</button>
   </header>
+  <article>
+    <section class="hero">
+      <h1 class="hero__title">UN MUNDO LLENO DE<br>DIVERSION<br>TE ESTA ESPERANDO</h1>
+      <picture>
+        <source media="(min-width:1300px)" srcset="./assets/images/large_box.png" />
+        <source media="(min-width:1000px)" srcset="./assets/images/medium_box.png" />
+        <img class="hero__image" src="./assets/images/small_box.png" loading="lazy" alt="Caja de texto">
+      </picture>
+      <div class="hero__box">
+        <h3 class="hero__cupon">Cupon de 25%<br>en tu primera<br>visita</h3>
+        <button class="hero__button">Click aqui</button>
+      </div>
+    </section>
+  </article>
 </body>
 </html>
