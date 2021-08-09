@@ -149,3 +149,60 @@ a {
 .hero__button:hover {
   box-shadow: 0 0 10px 0 #6af097 inset, 0 0 12px 3px #58FF55;
 }
+
+.drinks {
+  color: white;
+  position: relative;
+  bottom: 44rem;
+}
+
+.drinks__title {
+  margin-bottom: 6rem;
+  padding: 10px 30px;
+}
+
+.drinks__title h4 {
+  font-size: 4.4rem;
+  margin-bottom: 1rem;
+}
+
+.drinks__title p {
+  font-size: 3rem;
+}
+
+.drinks__card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card__container {
+  height: 313px;
+  width: 275px;
+  cursor: pointer;
+  border-radius: 14px;
+  background: linear-gradient(95.05deg, rgba(255, 255, 255, 0.4) 8.83%, rgba(255, 255, 255, 0.1) 52.21%);
+  box-shadow: 0px 0.678959px 16.295px -0.678959px rgba(0, 0, 0, 0.1);
+}
+
+.card__container:hover {
+  transform: scale(1.02);
+  transition: all 0.7s ease-out;
+}
+
+.card__image {
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.card__drink {
+  width: 100%;
+  filter: drop-shadow(1px 2px 5px #fff);
+}
+
+.card__name {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
