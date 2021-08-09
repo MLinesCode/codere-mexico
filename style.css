@@ -88,6 +88,7 @@ a {
   background-image: url('./assets/images/background.png');
   background-repeat: no-repeat;
   z-index: 1;
+  box-shadow:inset 0px 0px 160px hsl(276,89%,11%);
 }
 
 .hero__title {
@@ -164,10 +165,12 @@ a {
 .drinks__title h4 {
   font-size: 4.4rem;
   margin-bottom: 1rem;
+  filter: drop-shadow(0px 2px 2px #444444);
 }
 
 .drinks__title p {
   font-size: 3rem;
+  filter: drop-shadow(0px 2px 2px #444444);
 }
 
 .drinks__card {
@@ -182,6 +185,7 @@ a {
   border-radius: 14px;
   background: linear-gradient(95.05deg, rgba(255, 255, 255, 0.4) 8.83%, rgba(255, 255, 255, 0.1) 52.21%);
   box-shadow: 0px 0.678959px 16.295px -0.678959px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 
 .card__container:hover {
@@ -205,4 +209,23 @@ a {
   text-align: center;
   font-size: 2rem;
   color: white;
+}
+
+.drinks__background {
+  height: 32rem;
+  width: 40%;
+  position: relative;
+  bottom: 44rem;
+  overflow: hidden;
+  display: flex;
+  margin-left: auto;
+  z-index: 1;
+  transform: translatey(1px);
+	animation: float 8s ease-in-out infinite;
+}
+
+.drinks__background img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
