@@ -229,3 +229,59 @@ a {
   width: 100%;
   object-fit: cover;
 }
+
+.club {
+  position: relative;
+  bottom: 60rem;
+}
+
+.club__title h4 {
+  color: white;
+  padding: 0 3rem;
+  font-size: 4.3rem;
+  margin-bottom: 3rem;
+}
+
+.club__entry {
+  height: 82vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.entry__card {
+  height: 390px;
+  width: 30%;
+  color: white;
+  margin: .5rem;
+  text-align: center;
+}
+
+.entry__card h3 {
+  font-size: 6rem;
+  font-weight: 300;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #F142F4,
+    0 0 82px #F142F4,
+    0 0 92px #F142F4,
+    0 0 102px #F142F4,
+    0 0 151px #F142F4;
+}
+
+.entry__card h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #F142F4;
+  padding: 20px 0;
+}
+
+.entry__card p {
+  font-size: 1.1rem;
+  color: white;
+  padding: 20px 0;
+}
