@@ -285,3 +285,22 @@ a {
   color: white;
   padding: 20px 0;
 }
+
+.club__background {
+  height: 32rem;
+  width: 40%;
+  position: relative;
+  bottom: 66rem;
+  overflow: hidden;
+  display: flex;
+  margin-right: auto;
+  z-index: 1;
+  transform: translatey(2px);
+	animation: float 10s ease-in-out infinite;
+}
+
+.club__background img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
