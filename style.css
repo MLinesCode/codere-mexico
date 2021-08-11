@@ -466,3 +466,49 @@ a {
   width: 100%;
   object-fit: cover;
 }
+
+footer {
+  margin-top: 30rem;
+  position: relative;
+}
+
+.footer__links {
+  height: 16rem;
+  color: white;
+  margin: auto;
+}
+
+.footer__links h3 {
+  font-size: 3.4rem;
+  text-align: center;
+}
+
+.footer__links h4 {
+  font-size: 3.9rem;
+  font-weight: 600;
+  text-align: center;
+  color: #58FF55;
+}
+
+.footer__store{
+  margin: 1rem 0;
+  padding-left: 42%;
+}
+
+.footer__links img {
+  margin: 5px;
+}
+
+.footer__legal {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #7daa7c04, #58ff559f);
+}
+
+.footer__legal p {
+  text-align: center;
+  font-size: 1rem;
+  color: #9e9e9e;
+}
