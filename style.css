@@ -490,7 +490,7 @@ footer {
   color: #58FF55;
 }
 
-.footer__store{
+.footer__store {
   margin: 1rem 0;
   padding-left: 42%;
 }
@@ -504,7 +504,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, #7daa7c04, #58ff559f);
+  background: linear-gradient(to bottom, #7daa7c0c, #58ff559f);
 }
 
 .footer__legal p {

@@ -1,0 +1,172 @@
+header {
+  padding: 2.4rem 1rem;
+  justify-content: space-between;
+}
+
+.nav__container {
+  display: none;
+}
+
+.header__button {
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+}
+
+.hero__title {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 12rem 0;
+  font-size: 1.6rem;
+}
+
+.hero__image {
+  bottom: 13rem;
+}
+
+.hero__box {
+  top: 20rem;
+  font-size: 1rem;
+}
+
+.hero__button {
+  width: 160px;
+  margin-top: 6rem;
+}
+
+.drinks {
+  top: 4rem;
+}
+
+.drinks__title h4 {
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.drinks__title p {
+  font-size: 1.5rem;
+}
+
+.drinks__card {
+  flex-wrap: wrap;
+}
+
+.card__container {
+  width: 255px;
+  margin-bottom: 35px;
+}
+
+.drinks__background {
+  height: 20rem;
+  width: 100%;
+  top: 1rem;
+}
+
+.club__title h4 {
+  font-size: 2rem;
+}
+
+.club__entry {
+  height: auto;
+}
+
+.entry__card {
+  width: 60%;
+}
+
+.club__background {
+  height: 20rem;
+  width: 100%;
+  top: .8rem;
+}
+
+.social__main {
+  padding: 5px;
+}
+
+.social__container {
+  height: 154px;
+  width: 390px;
+  margin: 10px;
+}
+
+.social__items {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__container figure {
+  margin: 0 1.4rem 0 0;
+}
+
+.social__container p {
+  width: 60%;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.social__background {
+  height: 28rem;
+  width: 100%;
+  top: 316rem;
+}
+
+.location__title h4 {
+  font-size: 2rem;
+  padding-left: 15px;
+}
+
+.location__menu {
+  width: 100%;
+}
+
+.location__menu ul {
+  font-size: 1.7rem;
+}
+
+.location__menu h5 {
+  font-size: 1.6rem;
+}
+
+.location__menu p {
+  font-size: 1.1rem;
+}
+
+.location__map {
+  display: none;
+}
+
+.location__menu input {
+  width: 250px;
+}
+
+.location__background {
+  height: 28rem;
+  width: 100%;
+  top: 380rem;
+}
+
+footer {
+  margin-top: 25rem;
+}
+
+.footer__links h3 {
+  font-size: 2.8rem;
+  margin-bottom: .5rem;
+}
+
+.footer__links h4 {
+  font-size: 3.2rem;
+}
+
+.footer__store {
+  margin: 1.5rem 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2%;
+}
