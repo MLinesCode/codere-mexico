@@ -3,7 +3,7 @@ const CACHE_NAME = 'v1_cache_attid'
   urlsToCache = [
     './',
     's.googleapis.com/css2?family=Mulish:wght@300;500&display=swap',
-    './css/style.css'
+    './css/minify.css'
   ]
 
 //durante la fase de instalacion, generalmente se almacena en cache los activos estaticos 

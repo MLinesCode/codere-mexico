@@ -1,0 +1,105 @@
+.hero__title {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero__box {
+  top: 31rem;
+  font-size: 2.2rem;
+}
+
+.hero__button {
+  margin-top: 12rem;
+}
+
+.drinks {
+  top: 20rem;
+  position: relative;
+  overflow: scroll;
+  padding: 13px;
+}
+
+.drinks::-webkit-scrollbar {
+  display: none;
+}
+
+.drinks__card {
+  position: relative;
+  white-space: nowrap;
+}
+
+.card__container {
+  margin: 0 12px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+.drinks__title h4 {
+  font-size: 3.8rem;
+}
+
+.drinks__title p {
+  font-size: 2.5rem;
+}
+
+.club__title h4 {
+  font-size: 3.9rem;
+}
+
+
+.location__title h4 {
+  font-size: 3.9rem;
+}
+
+.location__container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.location__map {
+  width: 85%;
+}
+
+.location__menu {
+  width: 85%;
+}
+
+.location__menu ul {
+  font-size: 2rem;
+}
+
+.location__menu h5 {
+  font-size: 1.8rem;
+}
+
+.location__menu input {
+  width: 75%;
+}
+
+.location__options img {
+  height: 60px;
+  width: 60px;
+  padding: 8px;
+}
+
+.location__options p {
+  font-size: 1.4rem;
+}
+
+.footer__links h3 {
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.footer__links h4 {
+  font-size: 4.2rem;
+}
+
+.footer__store {
+  padding-left: 36%;
+}
