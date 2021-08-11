@@ -448,3 +448,21 @@ a {
 .location__options p {
   font-size: 1rem;
 }
+
+.location__background {
+  height: 49rem;
+  width: 40%;
+  position: absolute;
+  top: 256rem;
+  display: flex;
+  left: 0;
+  z-index: -1;
+  transform: translatey(1px);
+	animation: float 7s ease-in-out infinite;
+}
+
+.location__background img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
